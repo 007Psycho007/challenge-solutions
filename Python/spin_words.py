@@ -14,5 +14,3 @@ returns "Hey wollef sroirraw" spinWords( "This is a test") => returns "This is a
 def spin_words(sentence):
     return " ".join([ w if len(w)<5 else w[::-1] for w in sentence.split(" ")])
 
-
-print(spin_words( "Hey fellow warriors" ))

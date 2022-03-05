@@ -14,6 +14,3 @@ def first_non_repeating_letter(string):
             return letter
         
     return None
-
-if __name__ == "__main__":
-    print(first_non_repeating_letter("stress"))

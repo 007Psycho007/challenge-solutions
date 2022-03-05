@@ -17,5 +17,3 @@ def scramble(s1, s2):
         else:
             return False
     return True
-
-print(scramble("Hello","elli"))
