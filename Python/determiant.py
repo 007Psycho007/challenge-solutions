@@ -49,6 +49,8 @@ def determinant(m):
                 result = result + m[0][i] * determinant(cofactor(m,i))
             else:
                 result = result - m[0][i] * determinant(cofactor(m,i))
+    else:
+        result = "Matrix is not equal"
     return result
 if __name__ == "__main__":
     m1 = [ [1, 3], [2,5]]
