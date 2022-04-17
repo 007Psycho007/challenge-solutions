@@ -190,8 +190,7 @@ class Dinglemouse(object):
         if stops[-1] != 0:
             stops.append(0)
         return stops
-    
-    
+
 if __name__ == "__main__":
     queue =((), (0, 0, 0, 0), (0, 0, 0, 0), (0, 0, 0, 0), (0, 0, 0, 0), (0, 0, 0, 0), (0, 0, 0, 0)) # [0, 6, 5, 4, 3, 2, 1, 0, 5, 4, 3, 2, 1, 0, 4, 3, 2, 1, 0, 3, 2, 1, 0, 1, 0]
     lift = Dinglemouse(queue, 5)
