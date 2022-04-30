@@ -67,8 +67,5 @@ def next_bigger(h):
         else:
             return r
     return -1 
-# Driver code
 
-if __name__ == "__main__":
-    print(nextPermutation(59884848459853)) # 59884848483559
 
