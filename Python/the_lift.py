@@ -65,6 +65,7 @@ class elevator():
     def up(self,step = 1):
         self.direction = "up"
         self.current_floor += step
+
     def down(self,step = 1):
         self.direction = "down"
         self.current_floor -= step
@@ -74,11 +75,13 @@ class elevator():
             self.up()
         elif direction == "down":
             self.down()
+
     def switch(self):
         if self.direction == "up":
             self.direction = "down"
         else:
             self.direction = "up"
+
     def direction_needed(self,direction):
         if direction == "up":
             return any(x > self.current_floor for x in self.content)
